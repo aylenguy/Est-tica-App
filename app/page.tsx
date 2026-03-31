@@ -23,7 +23,7 @@ const services = [
       "Protocolos personalizados para purificar, equilibrar e iluminar la piel.",
     longDescription:
       "Un tratamiento pensado para limpiar en profundidad, oxigenar la piel y devolverle luminosidad. Ideal para quienes buscan una piel más fresca, uniforme y cuidada desde la primera sesión.",
-    image: "/images/skincare.jpg",
+    image: "/images/skincare.webp",
     duration: "60 minutos",
     includes: [
       "Diagnóstico inicial de la piel",
@@ -39,7 +39,7 @@ const services = [
       "Tecnología avanzada para una experiencia segura, cómoda y duradera.",
     longDescription:
       "Tratamiento progresivo orientado a reducir el vello de forma duradera, con tecnología moderna y protocolos de cuidado pensados para brindar confort y seguridad durante cada sesión.",
-    image: "/images/depilacion.jpg",
+    image: "/images/depilacion.webp",
     duration: "45 minutos",
     includes: [
       "Evaluación personalizada",
@@ -55,7 +55,7 @@ const services = [
       "Rituales de bienestar diseñados para liberar tensión y reconectar.",
     longDescription:
       "Una experiencia corporal orientada a relajar músculos, aliviar tensiones y generar una sensación profunda de bienestar físico y mental en un entorno cálido y delicado.",
-    image: "/images/masajes.jpg",
+    image: "/images/masajes.webp",
     duration: "50 minutos",
     includes: [
       "Ambientación relajante",
@@ -206,7 +206,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative min-h-screen overflow-hidden">
         <Image
-          src="/images/skincare.jpg"
+          src="/images/skincare.webp"
           alt="Estética BellaSkin"
           fill
           priority
@@ -278,7 +278,7 @@ export default function Home() {
           >
             <div className="relative h-[500px] w-[360px] overflow-hidden rounded-[32px] border border-white/10 bg-white/10 shadow-[0_40px_100px_rgba(0,0,0,0.35)] backdrop-blur-md">
               <Image
-                src="/images/depilacion.jpg"
+                src="/images/depilacion.webp"
                 alt="Tratamiento estético"
                 fill
                 className="object-cover"
@@ -421,7 +421,7 @@ export default function Home() {
             className="relative overflow-hidden rounded-[32px] border border-white/50 shadow-[0_30px_80px_rgba(212,106,146,0.18)]"
           >
             <Image
-              src="/images/skincare.jpg"
+              src="/images/skincare.webp"
               alt="Experiencia BellaSkin"
               width={900}
               height={650}
